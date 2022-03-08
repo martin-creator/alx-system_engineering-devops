@@ -1,3 +1,2 @@
 #!/bin/bash
-cut -d 1 | paste -s -d ' '
-
+find . -empty | rev | cut -d '/' -f 1 | rev
