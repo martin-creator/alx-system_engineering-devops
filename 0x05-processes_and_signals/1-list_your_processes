@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
-# script that displays lines containing the bash word
-# pgrep - look up or signal processes based on name
+# displays a list of currently running processes
+# ps - current process
+# -a - Select all processes except both session leaders
+# -u - display user ID
+# -x - date start procces
+# -f - full-format listing
 
-ps -auxf | grep bash
+ps -auxf
